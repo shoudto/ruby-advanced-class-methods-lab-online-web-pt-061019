@@ -55,11 +55,11 @@ class Song
     song = self.new
     song.name = song_name
     song.artist_name = artist_name
-    song 
+    song
   end
 
   def self.create_from_filename(filename)
     binding.pry s
-  end 
+  end
 
 end
