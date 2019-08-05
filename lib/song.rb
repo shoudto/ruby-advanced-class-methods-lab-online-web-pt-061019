@@ -61,6 +61,7 @@ class Song
   # filename => "Thundercat - For Love I Come.mp3"
   def self.create_from_filename(filename)
      filename =  filename.split(" - ")
+     song_name = filename[1].gsub(".mp3", "")
   end
 
 end
