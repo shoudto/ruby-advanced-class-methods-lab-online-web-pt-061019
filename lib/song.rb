@@ -49,7 +49,7 @@ class Song
 
   # filename =>  "Thundercat - For Love I Come.mp3"
   def self.new_from_filename(filename)
-    binding.pry 
+    binding.pry
   end
 
 end
