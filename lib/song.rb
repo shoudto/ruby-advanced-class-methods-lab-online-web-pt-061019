@@ -20,7 +20,7 @@ class Song
     song = self.new
     song.save
     song.name = name
-
+    song 
   end
 
 end
