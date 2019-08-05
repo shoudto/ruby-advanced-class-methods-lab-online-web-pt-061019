@@ -58,8 +58,9 @@ class Song
     song
   end
 
+  # filename => "Thundercat - For Love I Come.mp3"
   def self.create_from_filename(filename)
-    binding.pry 
+     filename =  filename.split(" - ")
   end
 
 end
